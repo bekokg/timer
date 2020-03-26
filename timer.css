@@ -1,0 +1,44 @@
+* {
+  font: inherit;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Fira Sans',
+    'Droid Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+.timer {
+  position: relative;
+  display: inline-block;
+}
+.controls {
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#timerValue {
+  display: block;
+  font-size: 90px;
+  border: none;
+  width: 240px;
+  text-align: center;
+}
+#timerValue:focus {
+  outline: none;
+}
+button {
+  border: none;
+  font-size: 36px;
+}
+button:focus {
+  outline: none;
+}
